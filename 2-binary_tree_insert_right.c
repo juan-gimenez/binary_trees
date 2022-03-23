@@ -14,7 +14,7 @@ binary_tree_t *tmp;
 if (!parent)
 return (NULL);
 tmp = malloc(sizeof(binary_tree_t));
-if (!temp)
+if (!tmp)
 return (NULL);
 tmp->left = NULL;
 tmp->right = NULL;

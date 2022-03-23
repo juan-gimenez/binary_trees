@@ -12,8 +12,8 @@ if (func == NULL || tree == NULL)
 return;
 else
 {
-binary_tree_preorder(tree->left, (*func));
-binary_tree_preorder(tree->right, (*func));
+binary_tree_postorder(tree->left, (*func));
+binary_tree_postorder(tree->right, (*func));
 func(tree->n);
 }
 }
